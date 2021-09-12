@@ -1,0 +1,19 @@
+{
+  "transpiler": "plugin-babel-emotion",
+  "extends": "./node_modules/@grafana/toolkit/src/config/tsconfig.plugin.json",
+  "include": [
+    "src",
+    "types"
+  ],
+  "compilerOptions": {
+    "rootDir": "./src",
+    "baseUrl": "./src",
+    "allowJs": true,
+    "checkJs": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "noImplicitAny": false,
+    "noImplicitThis": false
+  }
+}
